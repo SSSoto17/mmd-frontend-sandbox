@@ -22,13 +22,13 @@ body {
 
 .cookies {
   position: absolute;
-  bottom: 1rem;
-  right: 1rem;
+  bottom: 2rem;
+  right: 2rem;
   background: var(--foreground);
   color: var(--background);
   padding: 1.75rem;
   border-radius: 1rem;
-  max-width: 304px;
+  max-width: 264px;
   ul {
     display: flex;
     justify-content: space-between;
@@ -41,7 +41,7 @@ body {
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: 1.15rem;
     text-wrap: pretty;
   }
 
@@ -56,4 +56,5 @@ button.consent {
   padding: 1rem 2rem;
   border-radius: 0.75rem;
   width: 100%;
+  font-size: 1.25rem;
 }

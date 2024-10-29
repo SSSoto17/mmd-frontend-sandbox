@@ -13,7 +13,7 @@ const CookieConsent = () => {
         </li>
       </ul>
       <p>We use cookies to improve your user experience.</p>
-      <Button />
+      <Button label="I like Cookies" />
     </article>
   );
 };
